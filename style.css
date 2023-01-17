@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(gorsel/manzara.jpg);
+    background-repeat: no-repeat;
+background-position: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.box{
+    width: 450px;
+    background-color: #dac292;
+text-align: center;  
+  font-family: sans-serif;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px black ;
+  margin-top: 70px
+}
+
+.profil{
+border-radius: 50%;
+width: 250px;
+height: 200px;
+margin-bottom: 30px;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.profil:hover{
+transform: scale(0.9);
+transition: 0.5s;
+}
+
+.box h1{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.box h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.box p {
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: rgb(62, 62, 62);
+}
+
+.box ul li{
+    list-style: none;
+
+}
+.box ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box ul li img{
+    width: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box ul li img:hover{
+    transform: scale(1.3);
+  transition: 0.5s;
+  box-shadow: 5px 5px 50px black ;
+}
